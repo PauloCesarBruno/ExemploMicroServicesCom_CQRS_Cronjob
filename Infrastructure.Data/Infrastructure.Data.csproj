@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Azul.Framework.Core.Data.Oracle" Version="1.0.0" />
+		<PackageReference Include="Azul.Framework.Data" Version="4.5.4" />
+		<PackageReference Include="Azul.Framework.Data.SqlDapper" Version="4.5.4" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Domain\Domain.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="9.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="Resources\FakeTraxDB.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\FakeInventoryTraxDB.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>

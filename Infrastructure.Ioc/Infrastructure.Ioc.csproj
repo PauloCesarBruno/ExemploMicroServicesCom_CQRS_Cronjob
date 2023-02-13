@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azul.Framework.Context" Version="4.5.1" />
+    <PackageReference Include="Azul.Framework.Core.IoC" Version="1.0.3" />
+    <PackageReference Include="Azul.Framework.Events" Version="4.5.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+    <ProjectReference Include="..\Infrastructure.Data\Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\Infrastructure.Publishers\Infrastructure.Publishers.csproj" />
+    <ProjectReference Include="..\Infrastructure.Services\Infrastructure.Services.csproj" />
+  </ItemGroup>
+
+</Project>

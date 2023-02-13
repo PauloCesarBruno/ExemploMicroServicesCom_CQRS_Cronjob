@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Azul.Framework.Core.Api" Version="1.0.11" />
+		<PackageReference Include="Azul.Framework.Core.Configuration" Version="1.0.0" />
+		<PackageReference Include="Azul.Framework.Events" Version="4.5.8" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\CrossCutting.Configurations\CrossCutting.Configurations.csproj" />
+		<ProjectReference Include="..\Domain\Domain.csproj" />
+		<ProjectReference Include="..\Infrastructure.Publishers\Infrastructure.Publishers.csproj" />
+		<ProjectReference Include="..\Infrastructure.Services\Infrastructure.Services.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="9.0.0" />
+		<PackageReference Include="Azul.Framework.Core.Domain" Version="1.0.0" />
+	</ItemGroup>
+
+</Project>
